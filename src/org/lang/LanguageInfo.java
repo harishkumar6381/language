@@ -10,4 +10,10 @@ public class LanguageInfo {
 	public void hindiLanguage() {
 		System.out.println("hindi");
 	}
+	public static void main(String[] args) {
+		LanguageInfo li = new LanguageInfo();
+		li.englishLanguage();
+		li.hindiLanguage();
+		li.tamilLanguage();
+	}
 }
