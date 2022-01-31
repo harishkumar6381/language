@@ -7,10 +7,7 @@ public class StateDetailes {
 	private void northIndia() {
 		System.out.println("north");
 	}
-	public static void main(String[] args) {
-		StateDetailes s = new StateDetailes();
-		s.southIndia();
-		s.northIndia();
+	public static void main(String[] args) {		
 		LanguageInfo l = new LanguageInfo();
 		l.tamilLanguage();
 		l.englishLanguage();
